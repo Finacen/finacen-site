@@ -490,3 +490,7 @@ tr:target td{background:#FFF6DD}
 .j-hz .ht{font-size:13.5px;line-height:1.35}
 .j-agenda h3{margin-top:4px}
 @media (max-width:1000px){.j-gauche{margin-right:0}}
+/* L'essentiel dans le menu : vert sur fond crème */
+.nav{align-items:center}
+.nav a.nav-une{background:var(--creme);color:var(--vert);font-weight:700;padding:6px 12px;border-radius:4px;margin:6px 0}
+.nav a.nav-une:hover,.nav a.nav-une[aria-current="page"]{color:var(--vert);background:#fff;box-shadow:none}
